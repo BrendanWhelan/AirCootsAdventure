@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class SaveLoadManager : MonoBehaviour
 {
@@ -22,7 +23,10 @@ public class SaveLoadManager : MonoBehaviour
         }
 
         instance = this;
-        currentSavePath = Application.persistentDataPath + "/Saves/";
+        if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.OpenGLES3)
+            currentSavePath = "idbfs/AirCootsAdventure";
+        else
+            currentSavePath = Application.persistentDataPath + "/Saves/";
     }
 
     public void SaveSettings()

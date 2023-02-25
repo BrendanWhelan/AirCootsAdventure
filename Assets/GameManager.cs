@@ -234,6 +234,7 @@ public class GameManager : MonoBehaviour
     public void SetObjective(int objective, bool obtained)
     {
         objectiveChecks[objective] = obtained;
+        if (objectiveChecks[0] && objectiveChecks[1] && objectiveChecks[2]) objectiveChecks[3] = true;
         SaveLoadManager.instance.SaveGame();
     }
 
@@ -249,8 +250,8 @@ public class GameManager : MonoBehaviour
         {
             partyChecks[3] = objectiveChecks[3] = true;
         }
-        if(PartyHandler.instance != null) PartyHandler.instance.UpdateParty();
         SaveLoadManager.instance.SaveGame();
+        if(PartyHandler.instance != null) PartyHandler.instance.UpdateParty();
     }
 
     public TimeSpan GetLevelTime(int level)
@@ -348,6 +349,11 @@ public class GameManager : MonoBehaviour
             levelThreeCoins = gameInfo.levelThreeCoins;
             levelTimes = gameInfo.levelTimes;
             portalsEnabled = gameInfo.portalsEnabled;
+
+            if (objectiveChecks[0] && objectiveChecks[1] && objectiveChecks[2] && objectiveChecks[3])
+            {
+                partyChecks[0] = partyChecks[1] = partyChecks[2] = partyChecks[3] = true;
+            }
         }
     }
     

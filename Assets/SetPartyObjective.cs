@@ -28,12 +28,12 @@ public class SetPartyObjective : MonoBehaviour
 
     private void FadeFinished()
     {
-        fadeImage.DOColor(Color.black, 1f).OnComplete(WaitFinished);
         GameManager.instance.SetPartyObjective(objectiveToMarkComplete);
         if (GameManager.instance.GetObjective(3))
         {
             PlayerManager.instance.MovePlayer(finishPosition);
         }
+        fadeImage.DOColor(Color.black, 1f).OnComplete(WaitFinished);
     }
 
     private void WaitFinished()

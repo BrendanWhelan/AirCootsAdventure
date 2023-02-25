@@ -16,7 +16,10 @@ public class DialogueHandler : MonoBehaviour
     private TMP_Text textField;
     [SerializeField]
     private TMP_Text nameField;
-    
+
+
+    private float dialogueBufferTime = 0.5f;
+    private float dialogueCurrentBuffer = 0f;
     
     private void Awake()
     {
@@ -32,6 +35,7 @@ public class DialogueHandler : MonoBehaviour
     }
 
     private bool dialogueShowing = false;
+    private bool inputDelayed = false;
     
     private DialogueInfo currentDialogue;
     private int currentLine = 0;
@@ -45,6 +49,8 @@ public class DialogueHandler : MonoBehaviour
     private Coroutine currentRoutine;
     public void StartDialogue(DialogueInfo info)
     {
+        inputDelayed = true;
+        dialogueCurrentBuffer = 0f;
         EscapeMenu.instance.menuDisabled = true;
         PlayerManager.instance.DisableControls(true);
         PlayerManager.instance.MovePlayerDynamically(info.playerPosition);
@@ -59,6 +65,17 @@ public class DialogueHandler : MonoBehaviour
     private void Update()
     {
         if (!dialogueShowing) return;
+
+        if (inputDelayed)
+        {
+            dialogueCurrentBuffer += Time.deltaTime;
+            if (dialogueCurrentBuffer >= dialogueBufferTime)
+            {
+                inputDelayed = false;
+            }
+            return;
+        }
+        
         if (Input.anyKeyDown)
         {
             if (textDisplaying)

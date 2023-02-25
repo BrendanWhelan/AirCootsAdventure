@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class EscapeMenu : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class EscapeMenu : MonoBehaviour
     public bool menuDisabled = false;
 
     private bool justOpened = false;
+    private bool webGl = false;
     
     private void Awake()
     {
@@ -26,13 +28,14 @@ public class EscapeMenu : MonoBehaviour
             }
         }
         instance = this;
+        webGl = SystemInfo.graphicsDeviceType == GraphicsDeviceType.OpenGLES3;
     }
 
     private void Update()
     {
         //Don't open menu if game paused for other reasons
         if ((GameManager.instance.GamePaused && !menuOpen) || menuDisabled) return;
-        if ((Input.GetKeyDown(KeyCode.Escape)  || Input.GetKeyDown(KeyCode.Tab))&& !justOpened)
+        if (((Input.GetKeyDown(KeyCode.Escape) && !webGl)  || Input.GetKeyDown(KeyCode.Tab))&& !justOpened)
         {
             if (menuOpen)
             {

@@ -5,6 +5,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class SettingsManager : MonoBehaviour
@@ -22,6 +23,13 @@ public class SettingsManager : MonoBehaviour
             return;
         }
 
+        webGL = SystemInfo.graphicsDeviceType == GraphicsDeviceType.OpenGLES3;
+        if (webGL)
+        {
+            fullscreenToggle.SetIsOnWithoutNotify(false);
+            fullscreenToggle.interactable = false;
+            fullscreenToggle.image.color = new Color(1f, 1f, 1f, 0.5f);
+        }
         instance = this;
         DontDestroyOnLoad(gameObject);
     }
@@ -29,7 +37,9 @@ public class SettingsManager : MonoBehaviour
     [SerializeField]
     private Canvas settingsCanvas;
     public bool settingsOpen = false;
-    
+
+    private bool webGL;
+
     public void OpenSettings()
     {
         settingsOpen = true;
@@ -149,7 +159,7 @@ public class SettingsManager : MonoBehaviour
     {
         if (settingsOpen)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Tab))
+            if ((Input.GetKeyDown(KeyCode.Escape) && !webGL)|| Input.GetKeyDown(KeyCode.Tab))
             {
                 OnCancelClicked();
             }
@@ -172,10 +182,13 @@ public class SettingsManager : MonoBehaviour
         currentResolution = appliedResolution;
         resolutionDropdown.SetValueWithoutNotify(currentResolution);
 
-        Resolution res = resolutions[currentResolution];
-        
-        Screen.SetResolution(res.width,res.height,currentFullscreen);
+        if (!webGL)
+        {
+            Resolution res = resolutions[currentResolution];
 
+            Screen.SetResolution(res.width, res.height, currentFullscreen);
+        }
+        
         currentFPS = appliedFPS;
         fpsDropdown.SetValueWithoutNotify(currentFPS);
         SetFPS();
@@ -260,6 +273,7 @@ public class SettingsManager : MonoBehaviour
 
     public void OnFullscreenToggled()
     {
+        if (webGL) return;
         AudioManager.instance.PlaySound(Sounds.MenuClick);
         currentFullscreen = fullscreenToggle.isOn;
         Screen.fullScreen = currentFullscreen;
@@ -290,6 +304,7 @@ public class SettingsManager : MonoBehaviour
     
     public void OnResolutionDropdownOptionSelected()
     {
+        if (webGL) return;
         AudioManager.instance.PlaySound(Sounds.MenuClick);
         currentResolution = resolutionDropdown.value;
         if(currentResolution >= resolutions.Length)
@@ -422,8 +437,8 @@ public class SettingsManager : MonoBehaviour
             currentFullscreen = true;
             currentFPS = 0;
             currentMasterVolume = 0.5f;
-            currentMusicVolume = 0.5f;
-            currentSFXVolume = 0.5f;
+            currentMusicVolume = 0.4f;
+            currentSFXVolume = 0.6f;
 
             currentHorSens = 1.5f;
             currentVertSens = 0.025f;
@@ -432,6 +447,11 @@ public class SettingsManager : MonoBehaviour
             currentVsync = false;
             currentPP = true;
         }
+
+        //Disable fullscreen in webgl
+        
+        if (webGL)
+            currentFullscreen = false;
         
         fullscreenToggle.SetIsOnWithoutNotify(currentFullscreen);
         
@@ -442,8 +462,11 @@ public class SettingsManager : MonoBehaviour
         {
             currentResolution = 0;
         }
-        Resolution res = resolutions[currentResolution];
-        Screen.SetResolution(res.width,res.height,currentFullscreen);
+        if (!webGL)
+        {
+            Resolution res = resolutions[currentResolution];
+            Screen.SetResolution(res.width, res.height, currentFullscreen);
+        }
         
         SetFPS();
 

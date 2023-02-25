@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.082760915, g: 0.036200427, b: 0.13373418, a: 1}
+  m_IndirectSpecularColor: {r: 0.10814689, g: 0.067819454, b: 0.15441503, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -29433,7 +29433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1077103271
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -53008,12 +53008,12 @@ PrefabInstance:
     - target: {fileID: 5080582246831577620, guid: d8f3221885720214f90bbb642eba3723,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 2.6884284e-10
+      value: -2.6884286e-10
       objectReference: {fileID: 0}
     - target: {fileID: 5080582246831577620, guid: d8f3221885720214f90bbb642eba3723,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.920206e-12
+      value: 1.9202062e-12
       objectReference: {fileID: 0}
     - target: {fileID: 5080582247153677418, guid: d8f3221885720214f90bbb642eba3723,
         type: 3}
@@ -53038,12 +53038,12 @@ PrefabInstance:
     - target: {fileID: 5080582247153677418, guid: d8f3221885720214f90bbb642eba3723,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000001719306
+      value: -0.00000001719306
       objectReference: {fileID: 0}
     - target: {fileID: 5080582247153677418, guid: d8f3221885720214f90bbb642eba3723,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 6.76964e-10
+      value: -6.76964e-10
       objectReference: {fileID: 0}
     - target: {fileID: 5080582247971414517, guid: d8f3221885720214f90bbb642eba3723,
         type: 3}
