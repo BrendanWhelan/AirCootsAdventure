@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fba48fe212cf64e9e8591d3916aeb4, type: 3}
+  m_Name: Sliding
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: e370a8931da60164aae196669a542ec7, type: 3}
+  soundType: 9
+  volume: 0.4
+  maxSounds: 6
+  randomPitch: 0
+  loop: 1

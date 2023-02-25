@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4803637401872040760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4803637401872040757}
+  - component: {fileID: 4803637401872040758}
+  - component: {fileID: 4803637401872040759}
+  m_Layer: 0
+  m_Name: QT Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4803637401872040757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803637401872040760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.708, y: -5.681, z: 140.095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4803637401872040758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803637401872040760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.9660587, y: 0.2, z: 4.1347656}
+  m_Center: {x: 0.020062447, y: 0, z: -0.13311768}
+--- !u!114 &4803637401872040759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803637401872040760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb43b2d6b201c6a4c8e3e128808b508a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguesToCheck:
+  - dialogueToCheck: 0
+    objectiveToCheck: -1
+  - dialogueToCheck: 1
+    objectiveToCheck: 0
+  dialogues:
+  - playerPosition: {x: -6.365259, y: -5.3, z: 139.27686}
+    dialogueCam: {fileID: 0}
+    character:
+    - {fileID: 0}
+    - {fileID: 0}
+    dialogueLine:
+    - Oh, Coots! I'm glad you're here, I need your help!
+    - I baked a cake for the party but I left it behind. Could you go through this
+      portal and grab it for me?
+    actionToExecuteOnComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: PortalHandler, Assembly-CSharp
+          m_MethodName: EnablePortal
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - playerPosition: {x: -6.365259, y: -5.412813, z: 139.27686}
+    dialogueCam: {fileID: 0}
+    character:
+    - {fileID: 0}
+    - {fileID: 0}
+    dialogueLine:
+    - My cake! You're the best Coots, I knew I could count on you. I'll go put it
+      on the table, thanks!
+    actionToExecuteOnComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: SetPartyObjective, Assembly-CSharp
+          m_MethodName: SetObjectiveComplete
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

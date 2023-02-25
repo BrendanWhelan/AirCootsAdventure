@@ -1,0 +1,3 @@
+rep "Coots Game Main@Clock_Out_Games@cloud"
+  path "/"
+    smartbranch "/main"

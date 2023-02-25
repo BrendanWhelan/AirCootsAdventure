@@ -1,0 +1,3335 @@
+fileFormatVersion: 2
+guid: 6f0b3386e776c45449c549a3b3e69f6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CootsTail_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b447d2827277e478a8975c893a13b2
+      internalID: -694384544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dbfe364dd39e84987b22adf73ff68c
+      internalID: 1359898546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fb11bd5fb8c204bb9d10090bc714b9
+      internalID: 1661802473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b585ede586a8bd4993e4aaa006eecc7
+      internalID: -1876849267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_4
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218b679db7fb6cc44bd536bf185925b7
+      internalID: 1912248916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bec8d12cb9ca614595dcfd51da90d19
+      internalID: 298769688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_6
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ec9f845c21f2b40977e7b4eacca2b1
+      internalID: -985410624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e728377c66381d4fb40bf9cf5f0a980
+      internalID: 690275713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_8
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be1133914179ca489dcc48cd2ad694e
+      internalID: -86420716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_9
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a851950432189054a8cac7b923b76489
+      internalID: 1638994121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_10
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bb3576c74466343b8bd2c4ad68540f
+      internalID: 1534290447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_11
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8518381bdc636e14694e0bbf229078fa
+      internalID: 1362276953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_12
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d43039a2a0d9e4ab5905487997829d
+      internalID: -1393771803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375b1d940436552449c274674fa9ecfe
+      internalID: -350667193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2039ae1688678c489061cb3b1e0f02f
+      internalID: 1900432711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_15
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8bd180d7a0ebc499ecf3e5fa69fcac
+      internalID: 1865058542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2928c30ffb2882f4694560028427206c
+      internalID: 2082814675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_17
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9efc851de207d468b5ae74f21c314f
+      internalID: 1539020624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_18
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34584caac1886754eb743d17118436ae
+      internalID: 237996572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_19
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fe6e41ab3afcb47a3f0775d8d7f906
+      internalID: 1863451276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_20
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978650d1683d8544eb3a9ad544cc9f56
+      internalID: -1004540063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_21
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23be31515ccb504eb7eec0351c8b385
+      internalID: 291716830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_22
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978ec162644f45245acc5321d398327b
+      internalID: 1828388615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_23
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7df0ec722ed6440ac3537375d58dfd
+      internalID: -55727610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_24
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc7e29e0016ed243b75501a5f5d9d8b
+      internalID: 735300919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_25
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1000
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601df062ecba44f4590988c532f28519
+      internalID: -2087338830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0f8644e53b2474baaef9eca32d4d7f
+      internalID: 2052866891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_27
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b938ddf533982f444a2fca3f4a0aba0a
+      internalID: -260374180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_28
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e02feae39166e647a61fff12d2c600e
+      internalID: 1916128711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_29
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c638ef08a630994db75cd1fffa845e8
+      internalID: 850500808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_30
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1221f19edb321948bf0609e876a8e1b
+      internalID: 967764197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_31
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdac65497b693304fb29e8bc90062a91
+      internalID: 1014023874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_32
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b468c45ea8f225c4480dee2f19eaee53
+      internalID: 1446922064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_33
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559eab6f13e9a7246b42485b1a1ad2e9
+      internalID: -630680193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_34
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334140b178d626c48a252a4df22a403a
+      internalID: -1689204297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_35
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3799892dad12c7a4c83c32e2182e28b6
+      internalID: 1149901536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_36
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5adf163911d3b439d1fdc5c598c4e9
+      internalID: 948272113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_37
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0fb02f34d32cd45aa2fc51521ff608
+      internalID: -159784492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_38
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 900
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfd22e7950fd3243a282c8bcaec5d2b
+      internalID: -1345643441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a0f6c2c8b15be4b90ece177e8538e1
+      internalID: -2127865861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b37d0affb3e574f909a42db06ef9f2
+      internalID: 1131683301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_41
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0d0fa4b50e87a42ab8f785c02fb156
+      internalID: 613864698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_42
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5986b0f6fbb4db48b1e8d3154d4d70f
+      internalID: -461398675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_43
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ecfe3f0fb5e01449b26bdc80666670
+      internalID: 2052240140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_44
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695ccaa01d003e644aeb95825f0957d5
+      internalID: -353146482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_45
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc9520f55b9ced43aaca92ae5ae3726
+      internalID: -1981884700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_46
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06627735b2a4c9a4f9c31e2b75d30266
+      internalID: -138772665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_47
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018def3cbac28224ba1af552b6cf82fc
+      internalID: 699658863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_48
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be81393d3297de4d8f6d8f34b2939f8
+      internalID: -952885923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_49
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7a860a3517f054c9d713b5467a919c
+      internalID: -744290537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_50
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1d206e04b2e974db9edf31baea51d3
+      internalID: 1699870195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_51
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 800
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340b1cc05493a0848834cfc47f30e976
+      internalID: 1931722237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3947860638e39274ca2ea55e42ba08b8
+      internalID: -347092340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_53
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fccd110b3f42c40a2b077b788563e9
+      internalID: 637999743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_54
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0240e1e6bf1204ea4b68fc8ab00053
+      internalID: -1965604854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_55
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7809e6839f2041b44972a0f815d7002d
+      internalID: 219992967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_56
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282dd612a833e854ba7ad6aebe7a2b59
+      internalID: -554199468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_57
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2ff49c9cbd88499523d86246f19ce
+      internalID: 1699928099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_58
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685d468a7f8e484ebf8a466a838dc88
+      internalID: -2115347339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_59
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13519bf348bef8d4c97019d3201b6b11
+      internalID: 1778406503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_60
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5edf9eab2c9e7469c50bbb24a87e5b
+      internalID: -520563628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_61
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f348ab429d346e49ae7fc645361992f
+      internalID: -1042032446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_62
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dc0ef59640a0c409e1fcc5a8af9e00
+      internalID: 949612391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_63
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce41d7fd3617284e80c05b27a6beee6
+      internalID: -1540623673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_64
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 700
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355798a4423f3a84faeebbf88ea16de4
+      internalID: 2018698640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04041ac467e8d424b89b49f517dc3104
+      internalID: -58917312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_66
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76d01dfd43ed544e862a2ba736ca950
+      internalID: -616556912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_67
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d60ca96bbb04348baae2f39add83de
+      internalID: -100569611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_68
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ad3c77180de2d41b4b51f8cb87598b
+      internalID: 1935147137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_69
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65300ceb451ed4f4eb861c93525dfab5
+      internalID: 819755049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_70
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623362fc9acebc04e96f184926c92e4c
+      internalID: 562599715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_71
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23639a9d43d71204faa4a7782939fad0
+      internalID: -1923927961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_72
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827295968c756ed4e9f05e4099ad8750
+      internalID: -1337205921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_73
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b621a7d57b4e245a21aae5d689d0d2
+      internalID: 864877935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_74
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5229dfd1ffd350a46ba178084eece43d
+      internalID: 990327572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_75
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd45a2ea3968b4c41bc9d45b20c84d9b
+      internalID: -934197096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_76
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80df23c676df9f4396ffe3bd4f5d985
+      internalID: 1074102007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_77
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 600
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b722ae4f656682b408d35f5c779d81f5
+      internalID: -337040090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc1c7ac55beb9447a9872035480f85d
+      internalID: 1486640429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_79
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212e9b04e94d3a94d9f81875aad0a7de
+      internalID: -1980632305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_80
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46b33c06ccfeb443b114841e4365f19
+      internalID: 2035921216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_81
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eabdb90dd70e5c43b3728a82d4d8bce
+      internalID: -1869727418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_82
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736a013c306702b4688ba8db92c519cf
+      internalID: -620321921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_83
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96b5e22cb3bd104fa71d4fd85107723
+      internalID: 912358205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_84
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3142d213593f55444bc5af996e025b11
+      internalID: -173460592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_85
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05372130a201e40b90feec49f00a00
+      internalID: 2021143512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_86
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e49dc57a0697db4bb25ff68fe11b44c
+      internalID: 1941381452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_87
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a86dbcf29cfee04fa2815a66ca069b3
+      internalID: 1027175842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_88
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf4b3304b51cb146951bc123b76441b
+      internalID: 1279524205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_89
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af940a21e49578a45bc7761d5f6eb9d2
+      internalID: -949741488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_90
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 500
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040d39b71aea8de4d9e8931d0a07d4e3
+      internalID: -1173816304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82fbd920327d734494afc8ac93d8002
+      internalID: -2053786086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_92
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f8c9367467a8744bf2317e6aa76db9
+      internalID: 1323600445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_93
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8075b944651dbb24996c0636eb79a19f
+      internalID: 1734051725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_94
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35d0c1dae55b4e49af5a09f5f9f3ad7
+      internalID: -1948258029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_95
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b9bac85afbb264b9dda1640b97cc6a
+      internalID: -482427871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_96
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca2c67c6bf546d4f89db0bb3c0f290c
+      internalID: -778835904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_97
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d99b622f79d24f8265f02964427ba
+      internalID: -679514595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_98
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d3fdd566f35e04ab72c10dca9ea7a4
+      internalID: 516018825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_99
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a479110c4e74441adca8a58b7fdc44
+      internalID: -483697484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_100
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef19dd25b1001bb449fd54dfbb00db89
+      internalID: -1411050926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_101
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703cea48e696bc24488b7e6897f9ab82
+      internalID: 1080329544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_102
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ad3b04ba8ff7a4aa77ad7050403bcb
+      internalID: 1017181269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_103
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 400
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2818f2019c02ce44f81540687244d4bd
+      internalID: -1816723969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2776ac5542bd3374eb8276391f61066a
+      internalID: -1350946951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_105
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1c44feb6e62c438e08142311636fe
+      internalID: 1370375191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_106
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4383e1ba3b184145a2e1ebbf06abe95
+      internalID: -1519350961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_107
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7907453e6cf15d747b0acc593fa06bdd
+      internalID: 1615936213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_108
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e94bc84cc27864ba69e093372514d7
+      internalID: 1868190648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_109
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39100715e9f5298448f0df37f47fb8a9
+      internalID: 1834059986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_110
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51112108adeac5b45ab1b1036c2c4eac
+      internalID: 964859940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_111
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a87f0b00101545b3989305f0c4528
+      internalID: -49724081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_112
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb11e4653a8a0e4b97fa6a21d63d2ad
+      internalID: -492126467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_113
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5d5e0d6d896824a91d216e90122ed9
+      internalID: -593128477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_114
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94a1fd765de0674b9e28ca26d54e0e7
+      internalID: 2056587140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_115
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638b2fde218d2574e9e49bef4478bf75
+      internalID: 1098486014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_116
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 300
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a7dbc2b788c7e4c95f87aeb57ffc08
+      internalID: -1079957603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fce3e8e5ba82a48abe75c090357911
+      internalID: -123628319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_118
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843f206236910b942b244fb423c06b75
+      internalID: -409810709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_119
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce3e3f45cb06bf4eb735fa828d3c679
+      internalID: -550149175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_120
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb611975c75e4c44887005a0b8bf0b4a
+      internalID: 1287248851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_121
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532c02ac527335a4b9d658465dae2d5a
+      internalID: 1582565190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_122
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3a8e70ce15aa04699e7b2e6ccc758e
+      internalID: -40596020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_123
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2444974ea51ac5d4b8b51f5a742166e7
+      internalID: -1623098936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_124
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5695ab815f3febb4f897f9ea5fc3a42c
+      internalID: 110343994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_125
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384987b8ce937434bba959a1bb1ace72
+      internalID: 730811487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_126
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e8694185ff9cd449d9592554927d5f
+      internalID: -1591712716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_127
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1834ce19faa10ac4fa71c4aea2d05863
+      internalID: 627764027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_128
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4319bb0233164f8f2e16cea4ed232
+      internalID: -1056913417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_129
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 200
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bf16ebaaabbab43bf75db2616a157d
+      internalID: -449134007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158b03cd70f7c59419df90aa91e45710
+      internalID: -1869594882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_131
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0b5bbbe9c21aa469f0b45647ec57bc
+      internalID: -2080157347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_132
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb6345c983583419883686ba6d59b9
+      internalID: 73897999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_133
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae4f5706bbbfb846a6cbacb58294196
+      internalID: 1662721859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_134
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426b214dbe9032241ad7df47938d4e0f
+      internalID: 347370451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_135
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c69c7d37fc3740458069beb2fdb9dd5
+      internalID: -1588657671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_136
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506d8554c843d5d4a9eb5506f7d9d7a2
+      internalID: -953677912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_137
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8411b8ce811753e4ba769d1338949e17
+      internalID: 94489244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_138
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf217fa1fe392d4fa1ce46667f19af0
+      internalID: 520670843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_139
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127f68b681252024cbe54ed935f7cb47
+      internalID: 1558861306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_140
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5e62bc64e1be84ab9a1d59555398ff
+      internalID: -1428542025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_141
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e68b09a627a124bbc6c25776472b8f
+      internalID: -839135943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_142
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 100
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a492cee247e0f2a4c8768b7dfb3a0af1
+      internalID: 191430581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf565b35800b95a4a99aaf8bf6030ac1
+      internalID: -319232398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_144
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97f337da2c53254488d76636b70f370
+      internalID: 314007259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CootsTail_145
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a7089f45a0b364ca768db473ac7acb
+      internalID: 1914563607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f8f6b42951788124db9d115aabe96493
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CootsTail_52: -347092340
+      CootsTail_102: 1017181269
+      CootsTail_114: 2056587140
+      CootsTail_62: 949612391
+      CootsTail_7: 690275713
+      CootsTail_129: -449134007
+      CootsTail_105: 1370375191
+      CootsTail_26: 2052866891
+      CootsTail_34: -1689204297
+      CootsTail_93: 1734051725
+      CootsTail_19: 1863451276
+      CootsTail_118: -409810709
+      CootsTail_24: 735300919
+      CootsTail_68: 1935147137
+      CootsTail_74: 990327572
+      CootsTail_141: -839135943
+      CootsTail_108: 1868190648
+      CootsTail_127: 627764027
+      CootsTail_22: 1828388615
+      CootsTail_104: -1350946951
+      CootsTail_33: -630680193
+      CootsTail_137: 94489244
+      CootsTail_115: 1098486014
+      CootsTail_139: 1558861306
+      CootsTail_49: -744290537
+      CootsTail_40: 1131683301
+      CootsTail_134: 347370451
+      CootsTail_80: 2035921216
+      CootsTail_110: 964859940
+      CootsTail_79: -1980632305
+      CootsTail_10: 1534290447
+      CootsTail_89: -949741488
+      CootsTail_101: 1080329544
+      CootsTail_42: -461398675
+      CootsTail_1: 1359898546
+      CootsTail_120: 1287248851
+      CootsTail_53: 637999743
+      CootsTail_78: 1486640429
+      CootsTail_17: 1539020624
+      CootsTail_128: -1056913417
+      CootsTail_117: -123628319
+      CootsTail_25: -2087338830
+      CootsTail_63: -1540623673
+      CootsTail_18: 237996572
+      CootsTail_29: 850500808
+      CootsTail_51: 1931722237
+      CootsTail_36: 948272113
+      CootsTail_132: 73897999
+      CootsTail_107: 1615936213
+      CootsTail_109: 1834059986
+      CootsTail_39: -2127865861
+      CootsTail_12: -1393771803
+      CootsTail_54: -1965604854
+      CootsTail_67: -100569611
+      CootsTail_99: -483697484
+      CootsTail_6: -985410624
+      CootsTail_9: 1638994121
+      CootsTail_61: -1042032446
+      CootsTail_44: -353146482
+      CootsTail_116: -1079957603
+      CootsTail_43: 2052240140
+      CootsTail_90: -1173816304
+      CootsTail_5: 298769688
+      CootsTail_142: 191430581
+      CootsTail_82: -620321921
+      CootsTail_145: 1914563607
+      CootsTail_97: -679514595
+      CootsTail_119: -550149175
+      CootsTail_30: 967764197
+      CootsTail_98: 516018825
+      CootsTail_131: -2080157347
+      CootsTail_37: -159784492
+      CootsTail_23: -55727610
+      CootsTail_13: -350667193
+      CootsTail_83: 912358205
+      CootsTail_41: 613864698
+      CootsTail_57: 1699928099
+      CootsTail_106: -1519350961
+      CootsTail_32: 1446922064
+      CootsTail_35: 1149901536
+      CootsTail_11: 1362276953
+      CootsTail_46: -138772665
+      CootsTail_59: 1778406503
+      CootsTail_71: -1923927961
+      CootsTail_75: -934197096
+      CootsTail_95: -482427871
+      CootsTail_138: 520670843
+      CootsTail_73: 864877935
+      CootsTail_112: -492126467
+      CootsTail_48: -952885923
+      CootsTail_56: -554199468
+      CootsTail_130: -1869594882
+      CootsTail_144: 314007259
+      CootsTail_38: -1345643441
+      CootsTail_45: -1981884700
+      CootsTail_133: 1662721859
+      CootsTail_66: -616556912
+      CootsTail_64: 2018698640
+      CootsTail_113: -593128477
+      CootsTail_122: -40596020
+      CootsTail_8: -86420716
+      CootsTail_55: 219992967
+      CootsTail_92: 1323600445
+      CootsTail_143: -319232398
+      CootsTail_31: 1014023874
+      CootsTail_72: -1337205921
+      CootsTail_85: 2021143512
+      CootsTail_124: 110343994
+      CootsTail_60: -520563628
+      CootsTail_84: -173460592
+      CootsTail_126: -1591712716
+      CootsTail_20: -1004540063
+      CootsTail_121: 1582565190
+      CootsTail_58: -2115347339
+      CootsTail_2: 1661802473
+      CootsTail_14: 1900432711
+      CootsTail_103: -1816723969
+      CootsTail_136: -953677912
+      CootsTail_94: -1948258029
+      CootsTail_91: -2053786086
+      CootsTail_3: -1876849267
+      CootsTail_111: -49724081
+      CootsTail_50: 1699870195
+      CootsTail_65: -58917312
+      CootsTail_100: -1411050926
+      CootsTail_21: 291716830
+      CootsTail_88: 1279524205
+      CootsTail_123: -1623098936
+      CootsTail_81: -1869727418
+      CootsTail_28: 1916128711
+      CootsTail_47: 699658863
+      CootsTail_86: 1941381452
+      CootsTail_69: 819755049
+      CootsTail_76: 1074102007
+      CootsTail_77: -337040090
+      CootsTail_96: -778835904
+      CootsTail_16: 2082814675
+      CootsTail_0: -694384544
+      CootsTail_125: 730811487
+      CootsTail_4: 1912248916
+      CootsTail_70: 562599715
+      CootsTail_87: 1027175842
+      CootsTail_27: -260374180
+      CootsTail_140: -1428542025
+      CootsTail_15: 1865058542
+      CootsTail_135: -1588657671
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2204180785970863400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2204180785970863399}
+  - component: {fileID: 2204180785970863398}
+  - component: {fileID: 2204180785970863401}
+  m_Layer: 0
+  m_Name: Yard Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2204180785970863399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2204180785970863400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.38, y: -5.681, z: 140.095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2204180785970863398
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2204180785970863400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.9660587, y: 0.2, z: 4.1347656}
+  m_Center: {x: 0.020062447, y: 0, z: -0.13311768}
+--- !u!114 &2204180785970863401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2204180785970863400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb43b2d6b201c6a4c8e3e128808b508a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguesToCheck:
+  - dialogueToCheck: 2
+    objectiveToCheck: -1
+  - dialogueToCheck: 3
+    objectiveToCheck: 1
+  dialogues:
+  - playerPosition: {x: 0.31101936, y: -5.3, z: 139.15341}
+    dialogueCam: {fileID: 0}
+    character:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    dialogueLine:
+    - Hey Coots. Have you seen Slime?
+    - Yeah, he was supposed to come to the party.
+    - I think he might have gotten lost, would you mind looking for him?
+    actionToExecuteOnComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: PortalHandler, Assembly-CSharp
+          m_MethodName: EnablePortal
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - playerPosition: {x: 0.31101936, y: -5.412812, z: 139.15341}
+    dialogueCam: {fileID: 0}
+    character:
+    - {fileID: 0}
+    - {fileID: 0}
+    dialogueLine:
+    - Slime just got here, I think he's down staring into the fire.
+    - Thanks for the help! We'll see you at the party.
+    actionToExecuteOnComplete:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: SetPartyObjective, Assembly-CSharp
+          m_MethodName: SetObjectiveComplete
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
