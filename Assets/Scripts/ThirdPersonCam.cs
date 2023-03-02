@@ -16,7 +16,6 @@ public class ThirdPersonCam : MonoBehaviour
     [SerializeField]
     private CinemachineFreeLook freeCam;
     
-    [SerializeField]
     private float defaultFOV = 50;
 
     private bool fovUpdating = false;
@@ -25,7 +24,7 @@ public class ThirdPersonCam : MonoBehaviour
     private float targetFov;
 
     private float shiftTime = 0f;
-    private float shiftTargetTime = 0.5f;
+    private float shiftTargetTime = 1f;
 
     private bool dutchRotating = false;
 
@@ -116,6 +115,12 @@ public class ThirdPersonCam : MonoBehaviour
     }
 
     public void SetNoise(float noiseValue)
+    {
+        if (noise == null) return;
+        noise.m_AmplitudeGain = Mathf.Clamp(noiseValue,0,0.6f);
+    }
+    
+    public void SetNoiseAndFOV(float noiseValue)
     {
         if (noise == null) return;
         noise.m_AmplitudeGain = noiseValue;

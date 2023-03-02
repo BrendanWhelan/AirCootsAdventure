@@ -859,7 +859,7 @@ public class PlayerStateMachine : MonoBehaviour
     //         StopSwing();
     // }
 
-    private float minimumGrappleDistance = 2f;
+    private float minimumGrappleDistance = 5f;
     private void CheckForSwingPoints()
     {
         if (isSwinging || activeGrapple) return;

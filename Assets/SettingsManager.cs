@@ -440,8 +440,17 @@ public class SettingsManager : MonoBehaviour
             currentMusicVolume = 0.4f;
             currentSFXVolume = 0.6f;
 
-            currentHorSens = 1.5f;
-            currentVertSens = 0.025f;
+            if (!webGL)
+            {
+                currentHorSens = 1.5f;
+                currentVertSens = 0.025f;
+            }
+            else
+            {
+                currentHorSens = 0.75f;
+                currentVertSens = 0.0125f;
+            }
+            
             currentInvertX = false;
             currentInvertY = false;
             currentVsync = false;
